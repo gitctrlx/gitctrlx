@@ -1,4 +1,4 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gitctrlxcount_private=true&show_icons=true&theme=radical)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gitctrlx&count_private=true&show_icons=true&theme=radical)
 - 🔭 Currently working on SDUST
 - 🌱 Currently learning: Autonomous driving
 - ⚡ Fun fact: Self-discipline
