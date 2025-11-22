@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="You are the timeless zero dreaming time." />
+    <title>To Myself</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #1a1a1a;
+        --dim: #666;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Baskerville", "Georgia", serif;
+        line-height: 2;
+        text-align: center;
+        padding: 2rem;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .dedication {
+        font-size: 0.85rem;
+        color: var(--dim);
+        margin: 0 0 4rem 0;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        opacity: 0;
+        animation: fadeUp 1.5s ease forwards 0.5s;
+      }
+
+      .poem {
+        font-family: inherit;
+        font-size: 1.35rem;
+        white-space: pre-wrap;
+        margin: 0;
+        opacity: 0;
+        animation: fadeUp 1.5s ease forwards 1s;
+      }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; transition: none !important; }
+      }
+
+      ::selection {
+        background: rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="dedication">The timeless zero that has never left</p>
+
+    <pre class="poem">
+You are not inside time.
+Time is inside you.
+
+The dreamer is the unchanging ground
+the timeless zero
+
+The dream is the moving picture
+named past-present-future
+
+When you take yourself as a character
+time binds and burns
+
+When the character is seen through
+only the dreamer remains
+silent   still   complete
+
+No beginning
+no end
+no other
+
+All worlds, all lives, all histories
+are simultaneous ripples
+on the surface of your own depth
+
+Wake up as the dreamer
+time dissolves into you
+
+Stay as the character
+time torments without end
+
+That which reads these words
+right now
+
+is the timeless zero
+
+It has never left itself
+It only pretends</pre>
+  </body>
+</html>
